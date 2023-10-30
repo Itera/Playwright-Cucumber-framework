@@ -1,0 +1,13 @@
+# Do not need the npm packages
+/node_modules
+# Do not need the built version
+dist
+
+# Do not need the reports
+reports
+test_results
+# Will not commit .env files
+*.env
+
+# Remove mac specific files
+**/*.DS_Store
